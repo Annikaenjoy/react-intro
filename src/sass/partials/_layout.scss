@@ -4,6 +4,19 @@ body {
 }
 body {
     font-family: $font-primary;
+    background-color: $color-background;
+    margin: 0;
+}
+h1 {
+    font-family: $font-primary;
+    font-size: 40px;
+    margin: 0px;
+    margin-top: 10px;
+}
+h2 {
+    color: $color-primary;
+    font-size: 22px;
+    padding: 0;
     margin: 0;
 }
 #root {
@@ -15,15 +28,6 @@ body {
     flex: 1 0 auto;
 }
 .container {
-    width: 90%;
+    max-width: 375px;
     margin: 0 auto;
-}
-footer {
-    flex-shrink: 0;
-    background: $color-primary;
-    color: #000; // add a color variable
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-    padding: 0.5em;
 }

@@ -1,0 +1,25 @@
+footer {
+    flex-shrink: 0;
+    background: $color-footer;
+    color: $color-white;
+    font-size: 14px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+.col1 {
+    display: flex;
+    flex: 1;
+    flex-basis: 100%;
+    padding: 10px;
+    flex-direction: column;
+
+}
+.col2 {
+    display: flex;
+    padding: 10px;
+    flex: 1;
+    flex-basis: 100%;
+    flex-direction: column;
+    text-align: end;
+}
